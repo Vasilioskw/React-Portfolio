@@ -1,11 +1,15 @@
 import React from 'react';
+import '../src/App.css'
+import Navbar from './components/Navbar';
+import {BrowserRouter as Router} from 'react-router-dom'
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>The App is running!</h1>
-    </div>
+    <Router>
+      <Navbar />
+    </Router>
   );
 }
 
-export default App;
+export default App; 
